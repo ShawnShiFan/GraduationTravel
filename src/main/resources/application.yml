@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://39.108.95.210:3306/travel?serverTimezone=Hongkong&useUnicode=true&characterEncoding=utf-8&useSSL=true
+    username: root
+    password: 3DSmart
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
